@@ -20,6 +20,10 @@ public class GoodCoffeeShops {
         list.add(new CoffeeShop("Leith", "Twelve Triangles", 8));
         list.add(new CoffeeShop("Newington", "Filament Coffee", 9));
         list.add(new CoffeeShop("Newington", "Black Medicine", 7));
+        list.add(new CoffeeShop("Leith", "Printworks Coffee", 7));
+        list.add(new CoffeeShop("Leith", "Cafe Qubi", 6));
+        list.add(new CoffeeShop("Tollcross", "Cafe Class", 8));
+
     }
 
     public ArrayList<CoffeeShop> getList() { return new ArrayList<CoffeeShop>(list); }
